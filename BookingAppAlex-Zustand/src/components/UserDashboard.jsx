@@ -50,6 +50,12 @@ const UserDashboard = () => {
                 >
                   Open Workbook
                 </Link>
+                <Link
+                  to={`/user-dashboard/workbook/${token}/${wb._id}`}
+                  className="workbook-link"
+                >
+                  Open Workbook
+                </Link>
               </div>
             ))}
           </div>
