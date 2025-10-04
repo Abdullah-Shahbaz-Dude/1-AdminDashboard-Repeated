@@ -28,7 +28,7 @@ const UserLink = () => {
       });
   }, [userId, setUser, setLinkVisible]);
 
-  const navigateToNewUser = () => navigate("/new-user");
+  // const navigateToNewUser = () => navigate("/new-user");
 
   const copyToClipboard = () => {
     if (!user) return;
